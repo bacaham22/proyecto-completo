@@ -1,0 +1,7 @@
+const pasarTexto = () => {
+	
+}
+
+const fnConcatenar = () => {
+	
+}

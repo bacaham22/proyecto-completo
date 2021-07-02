@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablas en HTML</title>
+    <style>
+        td{background-color: orange; }
+        #xBorde{border: 3px dashed red;}
+        .xFormat{font-size: 32px;color: blue;}
+    </style>
+</head>
+<body>
+    <h1>Tabla 3 x 4</h1>
+    <table border="1">
+        <tr>
+            <td colspan="4">Fila1_Columna1</td>
+<!--            <td>Fila1_Columna2</td>
+            <td>Fila1_Columna3</td>
+            <td>Fila1_Columna4</td>             -->
+        </tr>
+        <tr>
+            <td>Fila2_Columna1</td>
+            <td rowspan="2">Fila2_Columna2</td>
+            <td id="xBorde">Fila2_Columna3</td>
+            <td>Fila2_Columna4</td>
+        </tr>
+        <tr>
+            <td>Fila3_Columna1</td>
+<!--             <td>Fila3_Columna2</td>  -->
+            <td>Fila3_Columna3</td>
+            <td class="xFormat">Fila3_Columna4</td>
+        </tr>
+    </table>
+</body>
+</html>

@@ -1,0 +1,30 @@
+.contenedor1{
+    background-color: aqua;
+    display: flex;
+}
+.contenedor1 div{
+    background-color: blanchedalmond;
+    color:teal;
+    margin: 5px;
+    padding: 5px;
+    /*width: 100px;*/
+    flex-basis: 100px;
+    
+}
+@media (max-width:600px) {
+    .contenedor1{
+        flex-direction: column;
+    }
+    .contenedor1 div{
+        flex-basis: 100%;
+    }
+}
+@media (max-width:600px){
+    .contenedor1{
+        background-color:tomato;
+    }
+    .contenedor1 div{
+        color: yellowgreen;
+        font-size: large;
+    }
+}
